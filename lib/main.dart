@@ -48,7 +48,7 @@ class _MyHomePageState extends State<MyHomePage> {
               style: TextStyle(
                 fontSize: 38,
                 color: Colors.white,
-                fontWeight: FontWeight.bold,
+                fontWeight: FontWeight.w900,
               ),
             ),
           ),
@@ -63,9 +63,9 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: Text(
                     millisecondsText,
                     style: TextStyle(
-                      fontSize: 38,
+                      fontSize: 36,
                       color: Colors.white,
-                      fontWeight: FontWeight.bold,
+                      fontWeight: FontWeight.w500,
                     ),
                   ),
                 ),
@@ -101,8 +101,9 @@ class _MyHomePageState extends State<MyHomePage> {
                     child: Text(
                       _getButtonText(),
                       style: TextStyle(
-                        fontSize: 60,
-                        fontWeight: FontWeight.w400,
+                        fontSize: 38,
+                        color: Colors.white,
+                        fontWeight: FontWeight.w900,
                       ),
                     ),
                   ),
